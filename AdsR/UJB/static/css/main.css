@@ -1,8 +1,12 @@
-.home-carousel-img{
-    width: 100px;
+#navbar{
+    background-color: #aaa;
 }
 
-h1{
-    background-color: rebeccapurple;
-    font-size: 40px;
+#home-carousel{
+    padding: 10px;
+}
+
+
+.home-carousel-img{
+    height: 500px;
 }
