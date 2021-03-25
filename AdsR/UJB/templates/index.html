@@ -1,8 +1,10 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block head %}
 
 <title>Bosh Sahifa</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 
 {% endblock %}
 
@@ -11,5 +13,20 @@
 {% include 'nav.html' %}
 
 <h1>Hello Guys!</h1>
+
+<div id="home-carousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner active">
+        
+        <div class="carousel-item active">
+            <img class="d-block w-100 home-carousel-img" src="media/first.jpg">
+        </div>
+        <div class="carousel-item active">
+            <img class="d-block w-100 home-carousel-img" src="media/second.jpg">
+        </div>       
+        <div class="carousel-item active">
+            <img class="d-block w-100 home-carousel-img" src="media/third.jpg">
+        </div>              
+    </div>
+</div>
 
  {% endblock %}
