@@ -5,6 +5,12 @@
 
 <title>Bosh Sahifa</title>
 <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script>
+new WOW().init();
+</script>
 
 {% endblock %}
 
@@ -54,71 +60,103 @@
 
 
 <!-- CARD -->
-
-<div class="card-border-right">
-	<div>
-		<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-		<div class="name-R">Restaran nomi</div>
+<div class="wow bounceInUp">
+	<div class="card-border-right">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
 	</div>
 </div>
 
 
+<div class="wow bounceInUp">
+	<div class="card-border-left" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
+	</div>
+</div>
 
-<div class="card-border-left">
-	<div>
-		<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-		<div class="name-R">Restaran nomi</div>
+<div class="wow bounceInUp">
+	<div class="card-border-right" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
 	</div>
 </div>
 
 
-<div class="card-border-right">
-	<div>
-		<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-		<div class="name-R">Restaran nomi</div>
+<div class="wow bounceInUp">
+	<div class="card-border-left" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
+	</div>
+</div>
+<div class="wow bounceInUp">
+	<div class="card-border-right" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
 	</div>
 </div>
 
 
-
-<div class="card-border-left">
-	<div>
-		<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-		<div class="name-R">Restaran nomi</div>
+<div class="wow bounceInUp">
+	<div class="card-border-left" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
+	</div>
+</div>
+<div class="wow bounceInUp">
+	<div class="card-border-right" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
 	</div>
 </div>
 
 
-<div class="card-border-right">
-	<div>
-		<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-		<div class="name-R">Restaran nomi</div>
+<div class="wow bounceInUp">
+	<div class="card-border-left" class="wow bounceInUp">
+		<div>
+			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+			<a href="#" class="name-R">Restaran nomi</a>
+		</div>
 	</div>
 </div>
 
 
-
-<div class="card-border-left">
-	<div>
-		<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-		<div class="name-R">Restaran nomi</div>
-	</div>
-</div>
 
 <style type="text/css">
 	.card-border-right {
+		background-color: #cccccc;
 		width: 800px;
 		height: 250px;
 		margin-left: 400px;
 		margin-top: 150px;
 		border: 1px solid red;
+		transition: all 0.5s;
 	}
 	.card-border-left {
+		background-color: #cccccc;
 		width: 800px;
 		height: 250px;
 		margin-left: 150px;
 		margin-top: 150px;
 		border: 1px solid red;
+		transition: all 0.5s;
+	}
+	.card-border-left:hover , .card-border-right:hover{
+		transform: scale(1.2);
 	}
 	.name-R {
 		margin-left: 500px;
