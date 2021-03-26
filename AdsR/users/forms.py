@@ -14,7 +14,7 @@ class UserRegisterForm(UserCreationForm):
         fields = ['username', 'email','password1','password2']
 
 
-class ProfileCreationForm(ModelForm):
-    class Meta:
-        model = Profile
-        fields  = ['phonenumber_code', 'phonenumber']
+# class ProfileCreationForm(ModelForm):
+#     class Meta:
+#         model = Profile
+#         fields  = ['phonenumber_code', 'phonenumber']

@@ -22,7 +22,7 @@ class Profile(models.Model):
     )
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     phonenumber_code = models.CharField(max_length=2, choices=code_choices, default=91)
-    phonenumber = models.IntegerField(validators=[validate_number])
+    phonenumber = models.IntegerField(validators=[validate_number], default=1234567)
 
     def __str__(self):
         return "{}-profile".format(self.user.username)
