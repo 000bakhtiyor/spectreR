@@ -6,6 +6,8 @@
 <title>Bosh Sahifa</title>
 <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="{% static 'js/wow.min.js' %}"></script>
 <script>
@@ -18,150 +20,220 @@ new WOW().init();
 
 {% include 'nav.html' %}
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div style="background-color: #e6e6e6">
+	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+	    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	  </div>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="https://picsum.photos/700/303" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h5>First slide label</h5>
+	        <p>Some representative placeholder content for the first slide.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://picsum.photos/700/302" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h5>Second slide label</h5>
+	        <p>Some representative placeholder content for the second slide.</p>
+	      </div>
+	    </div>
+	    <div class="carousel-item">
+	      <img src="https://picsum.photos/700/301" class="d-block w-100" alt="...">
+	      <div class="carousel-caption d-none d-md-block">
+	        <h5>Third slide label</h5>
+	        <p>Some representative placeholder content for the third slide.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+
+
+
+	<!-- CARD -->
+	<div class="wow bounceInUp">
+		<div class="card-border-right">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="wow bounceInUp">
+		<div class="card-border-left" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="wow bounceInUp">
+		<div class="card-border-right" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="wow bounceInUp">
+		<div class="card-border-left" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+	<div class="wow bounceInUp">
+		<div class="card-border-right" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="wow bounceInUp">
+		<div class="card-border-left" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+	<div class="wow bounceInUp">
+		<div class="card-border-right" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="wow bounceInUp">
+		<div class="card-border-left" class="wow bounceInUp">
+			<div>
+				<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
+				<a href="#" class="name-R">Restaran nomi</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Footer -->
+<footer class="bg-dark text-center text-white" style="margin-top: 100px;">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-facebook"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fa fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 created by:
+    <a class="text-white">Spectre group</a>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://picsum.photos/700/303" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/700/302" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://picsum.photos/700/301" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 </div>
 
 
 
-<!-- CARD -->
-<div class="wow bounceInUp">
-	<div class="card-border-right">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
 
-
-<div class="wow bounceInUp">
-	<div class="card-border-left" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-
-<div class="wow bounceInUp">
-	<div class="card-border-right" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-
-
-<div class="wow bounceInUp">
-	<div class="card-border-left" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-<div class="wow bounceInUp">
-	<div class="card-border-right" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-
-
-<div class="wow bounceInUp">
-	<div class="card-border-left" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-<div class="wow bounceInUp">
-	<div class="card-border-right" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-
-
-<div class="wow bounceInUp">
-	<div class="card-border-left" class="wow bounceInUp">
-		<div>
-			<img src="media/first.jpg" width="340px" height="248px" style="position: absolute;">
-			<a href="#" class="name-R">Restaran nomi</a>
-		</div>
-	</div>
-</div>
-
-
-
-<style type="text/css">
-	.card-border-right {
-		background-color: #cccccc;
-		width: 800px;
-		height: 250px;
-		margin-left: 400px;
-		margin-top: 150px;
-		border: 1px solid red;
-		transition: all 0.5s;
-	}
-	.card-border-left {
-		background-color: #cccccc;
-		width: 800px;
-		height: 250px;
-		margin-left: 150px;
-		margin-top: 150px;
-		border: 1px solid red;
-		transition: all 0.5s;
-	}
-	.card-border-left:hover , .card-border-right:hover{
-		transform: scale(1.2);
-	}
-	.name-R {
-		margin-left: 500px;
-		font-size: 25px;
-	}
-</style>
 
  {% endblock %}
