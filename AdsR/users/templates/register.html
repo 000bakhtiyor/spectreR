@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block body%}
+{% include 'nav.html' %}
+    <div id="SignUp-div" class="content-section col-md-4 w-50 mt-3 mb-3">
+        <form method="POST" >
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4 pt-2 pb-2"> Join Today</legend>
+                {{ form.as_p }}
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-info" type="submit">Sign Up</button>
+            </div>
+        </form>
+        <div class="border-top pb-3">
+            <small class="text-muted">
+                Akkaunt mavjudmi? 
+                <a href="{%url 'login'%}">Log In</a>
+            </small>
+        </div>
+    </div>
+
+{% endblock body %}

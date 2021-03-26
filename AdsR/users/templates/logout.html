@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body%}
+{% include 'nav.html' %}
+<div  style="text-align: center; margin-top: 20px;">
+
+
+    <p style="font-size: 20px; margin: 5px;">
+        You have been logged out! 
+    </p>   
+    <small class="border-top"><a href="{% url 'login' %}">Log In</a> or <a href="{% url 'register' %}">Sign Up</a></small>
+
+
+</div>
+{% endblock body %}

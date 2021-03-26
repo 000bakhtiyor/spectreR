@@ -10,3 +10,9 @@
 .home-carousel-img{
     height: 500px;
 }
+
+#SignUp-div{
+    margin: auto;
+    background-color: #bbb;
+    border-radius: 5px;
+}
