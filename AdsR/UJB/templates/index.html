@@ -7,12 +7,15 @@
 <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/animate.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/card.css' %}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <script src="{% static 'js/wow.min.js' %}"></script>
 <script>
 new WOW().init();
 </script>
+ -->
+
+
 
 {% endblock %}
 
@@ -21,6 +24,64 @@ new WOW().init();
 {% include 'nav.html' %}
 
 
+<div class="card">
+ 	<div class="img-pr"></div>
+ 	<a class="name-th">Sharh uchun mavzu</a>
+ 	<a href="#" class="text-prname">profil name</a>
+ 	<div class="text-th">Bu yerda matn buladi</div>
+</div>
+
+<div class="card">
+ 	<div class="img-pr"></div>
+ 	<a class="name-th">Sharh uchun mavzu</a>
+ 	<a href="#" class="text-prname">profil name</a>
+</div>
+
+<div class="card">
+ 	<div class="img-pr"></div>
+ 	<a class="name-th">Sharh uchun mavzu</a>
+ 	<a href="#" class="text-prname">profil name</a>
+</div>
+
+<div class="card">
+ 	<div class="img-pr"></div>
+ 	<a class="name-th">Sharh uchun mavzu</a>
+ 	<a href="#" class="text-prname">profil name</a>
+</div>
+
+<style type="text/css">
+	.card {
+		margin-top: 70px;
+		margin-left: 100px;
+		width: 650px;
+		height: 250px;
+		background: #d5d5d5;
+	}
+	.img-pr {
+		width: 135px;
+		height: 135px;
+		border-radius: 50%;
+		margin-left: 5px;
+		margin-top: 5px;
+		background-color: red;
+	}
+	.text-prname {
+		margin-top: 10px;
+		margin-left: 35px;
+	}
+	.name-th {
+		position: absolute;
+		left: 300px;
+		top: 20px;
+	}
+	.text-th {
+		position: absolute;
+		left: 300px;
+		top: 60px;
+	}
+</style>
 
 
  {% endblock %}
+
+
