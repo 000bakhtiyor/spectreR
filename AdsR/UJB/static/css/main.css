@@ -1,18 +1,11 @@
 #navbar{
     background-color: #aaa;
 }
-
-#home-carousel{
-    padding: 10px;
-}
-
-
-.home-carousel-img{
-    height: 500px;
-}
-
 #SignUp-div{
     margin: auto;
     background-color: #ccc;
     border-radius: 5px;
+}
+.btn-outline-light {
+	
 }
